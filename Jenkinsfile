@@ -174,7 +174,7 @@ stage('DT Deploy Event') {
       }
     }
   }
-}
+
     stage('Deploy to staging') {
       when {
         beforeAgent true
